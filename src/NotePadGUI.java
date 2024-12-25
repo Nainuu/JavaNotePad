@@ -21,6 +21,7 @@ public class NotePadGUI extends JFrame {
     public NotePadGUI() {
         super("Notepad");
         setSize( 400 , 500 );
+
         
 //        center location
         setLocationRelativeTo(null);
