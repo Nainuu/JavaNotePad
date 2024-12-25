@@ -16,9 +16,7 @@ public class NotePadGUI extends JFrame {
     private File currentFile;
 //    Swing built in library to manage undo and redo functionality
 //    as every text edit (add, remove, etc.) is recorded as an UndoableEditEvent.
-    
     private UndoManager undoManager;
-
 //    constructor
     public NotePadGUI() {
         super("Notepad");
