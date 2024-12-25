@@ -20,7 +20,8 @@ public class NotePadGUI extends JFrame {
 //    constructor
     public NotePadGUI() {
         super("Notepad");
-        setSize( 400 , 500 ); 
+        setSize( 400 , 500 );
+        
 //        center location
         setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
